@@ -4,7 +4,7 @@ var logOutbtn=document.getElementById('logOutbtn');
 var container;
 if(localStorage.getItem('username')!=null);
 {
-    welcomeInput.innerHTML=`<h2>Wellcome ${localStorage.getItem('username')}</h2>`
+    welcomeInput.innerHTML=`<h2>Welcome ${localStorage.getItem('username')}</h2>`
 }
 
 function logOut(){
